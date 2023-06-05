@@ -21,7 +21,7 @@ st.markdown("<h1 style='text-align: center; color: #006600;'>🇲🇽 Análisis 
 # Leer archivo con extensión csv - primera base Bienes Durables
 df0 = pd.read_csv('diagnostico-cdmx_2015_bienes_dur.csv')
 #Segunda base de datos-Necesidades basicas insatisfechas
-df1 = pd.read_csv('gnbi2020 (1).csv')
+df1 = pd.read_csv('gnbi2020 (1).zip')
 
 #----------------------------------------
 c1, c2= st.columns((1,1)) # Dividir el ancho en 2 columnas de igual tamaño
